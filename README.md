@@ -1,6 +1,6 @@
 # Governance UI — Powered by Drips Wave
 
-A Next.js-based governance interface for Solana DAOs, built on top of the [SPL Governance](https://github.com/solana-labs/solana-program-library/tree/master/governance) program. This UI enables token holders, NFT communities, and multi-sig participants to create proposals, cast votes, manage treasuries, and interact with a rich ecosystem of voter-weight plugins — all from a single, unified interface.
+A Next.js-based governance interface for stellar DAOs, built on top of the [SPL Governance](https://github.com/stellar-labs/stellar-program-library/tree/master/governance) program. This UI enables token holders, NFT communities, and multi-sig participants to create proposals, cast votes, manage treasuries, and interact with a rich ecosystem of voter-weight plugins — all from a single, unified interface.
 
 This project participates in [Drips Wave](https://docs.drips.network/wave/#drips-wave), a recurring open-source bounty program that lets contributors **Fix, Merge, and Earn** on a predictable monthly cycle.
 
@@ -66,11 +66,11 @@ Your payout is proportional to your share of total points earned across all cont
 │         │                                          │                 │
 │         ▼                                          ▼                 │
 │  ┌─────────────────────────────────────────────────────────────┐    │
-│  │                    Solana Web3 Layer                        │    │
+│  │                    stellar Web3 Layer                        │    │
 │  │                                                             │    │
-│  │  @solana/web3.js  ──▶  RPC Node (Mainnet / Devnet)         │    │
+│  │  @stellar/web3.js  ──▶  RPC Node (Mainnet / Devnet)         │    │
 │  │  @coral-xyz/anchor ──▶  Program IDLs                       │    │
-│  │  @solana/spl-governance ──▶  Governance Program            │    │
+│  │  @stellar/spl-governance ──▶  Governance Program            │    │
 │  └─────────────────────────────────────────────────────────────┘    │
 │         │                                                            │
 │         ▼                                                            │
@@ -111,7 +111,7 @@ useRealmVoterWeightPlugins()   ◀── resolves active plugin chain
 castVote(proposal, side)
     │
     ▼
-@solana/spl-governance  ──▶  on-chain vote record
+@stellar/spl-governance  ──▶  on-chain vote record
 ```
 
 ---
@@ -145,7 +145,7 @@ governance-ui/
 ├── GatewayPlugin/            # Civic identity gateway plugin
 ├── QuadraticPlugin/          # Quadratic voting plugin
 │
-├── actions/                  # Solana transaction builders
+├── actions/                  # stellar transaction builders
 │   ├── castVote.ts
 │   ├── createProposal.ts
 │   ├── executeInstructions.ts
@@ -347,4 +347,4 @@ git push origin fix/your-issue-description
 
 ## License
 
-[MIT](./LICENSE) — Solana Maintainers
+[MIT](./LICENSE) — stellar Maintainers
