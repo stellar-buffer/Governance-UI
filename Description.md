@@ -1,1 +1,0 @@
-A Next.js governance interface for Solana DAOs built on SPL Governance. Supports token, NFT, and multi-sig voting with pluggable voter weight systems (VSR, Helium, Quadratic, Drift, Pyth). Manage proposals, treasuries, and members — all on-chain. Participates in Drips Wave for open-source contributor rewards.
