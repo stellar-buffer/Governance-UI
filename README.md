@@ -1,4 +1,4 @@
-# Governance UI — Powered by Drips Wave
+# Governance UI 
 
 A Next.js-based governance interface for stellar DAOs, built on top of the [SPL Governance](https://github.com/stellar-labs/stellar-program-library/tree/master/governance) program. This UI enables token holders, NFT communities, and multi-sig participants to create proposals, cast votes, manage treasuries, and interact with a rich ecosystem of voter-weight plugins — all from a single, unified interface.
 
